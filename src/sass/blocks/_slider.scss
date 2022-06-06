@@ -1,0 +1,30 @@
+.slider {
+    min-height: 742px;
+    padding: 150px 0 170px 0;
+}
+.container{
+   &_relative{
+    position: relative;
+   }
+}
+.swiper {
+    position: relative;
+    width: 750px;
+    margin: 0 auto;
+}
+.swiper-prev {
+    position: absolute;
+    left: -66px;
+    top: 50%;
+    width: 31px;
+    height: 50px;
+    cursor: pointer;
+}
+.swiper-next {
+    position: absolute;
+    right: -66px;
+    top: 50%;
+    width: 31px;
+    height: 50px;
+    cursor: pointer;
+}

@@ -1,4 +1,4 @@
-@import '../css/reboot.css';
+
 @import '../sass/blocks/variables';
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -7,7 +7,18 @@
     max-width: 950px;
     margin: 0 auto;
 }
+.title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    text-align: center;
+}
 @import '../sass/blocks/promo';
 @import '../sass/blocks/header';
 @import '../sass/blocks/button';
 @import '../sass/blocks/benefits';
+@import '../sass/blocks/consult';
+@import '../sass/blocks/forms';
+@import '../sass/blocks/slider';
+@import '../sass/blocks/catalog';
